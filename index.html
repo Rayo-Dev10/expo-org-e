@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Infografía: Sistema de Comercialización y Distribución</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f0f2f5;
+        }
+        .infographic-container {
+            max-width: 1000px;
+            margin: auto;
+            background-color: #ffffff;
+        }
+        /* Textura de puntos sutil */
+        .dot-pattern {
+            background-image: radial-gradient(#d1d5db 0.5px, transparent 0.5px);
+            background-size: 10px 10px;
+        }
+        /* Textura de líneas sutil */
+        .line-pattern {
+            background-color: #F9FAFB;
+            background-image: repeating-linear-gradient(45deg, #E5E7EB 0, #E5E7EB 1px, transparent 0, transparent 50%);
+            background-size: 10px 10px;
+        }
+        .card {
+            background-color: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.07);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+        }
+        .kpi-card {
+            border-left: 4px solid;
+        }
+        .icon-bg {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+        }
+    </style>
+</head>
+<body class="p-4 md:p-8">
+
+    <div class="infographic-container p-6 md:p-10 rounded-2xl shadow-2xl">
+
+        <!-- 1. Encabezado Principal -->
+        <header class="text-center mb-10 p-6 rounded-2xl bg-gradient-to-br from-slate-800 to-slate-900 dot-pattern">
+            <h1 class="text-4xl md:text-5xl font-black text-white tracking-tight">Sistema de Comercialización y Distribución</h1>
+            <p class="text-lg text-slate-300 mt-2">Una guía visual para llevar valor a tus clientes en Colombia</p>
+        </header>
+
+        <!-- 2. Introducción y Marco Conceptual -->
+        <section class="mb-12">
+            <h2 class="text-3xl font-bold text-slate-800 mb-6 border-b-4 border-amber-400 pb-2">Los Pilares Fundamentales</h2>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Propuesta de Valor -->
+                <div class="card p-5">
+                    <div class="flex items-center space-x-4">
+                        <div class="icon-bg bg-sky-100"><svg class="w-6 h-6 text-sky-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 5a2 2 0 012-2h10a2 2 0 012 2v16l-7-3.5L5 21V5z"></path></svg></div>
+                        <div>
+                            <h3 class="font-bold text-lg text-slate-700">Propuesta de Valor</h3>
+                            <p class="text-sm text-slate-500">Beneficios que prometes a tu cliente.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Segmentación -->
+                <div class="card p-5">
+                     <div class="flex items-center space-x-4">
+                        <div class="icon-bg bg-emerald-100"><svg class="w-6 h-6 text-emerald-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path></svg></div>
+                        <div>
+                            <h3 class="font-bold text-lg text-slate-700">Segmentación</h3>
+                            <p class="text-sm text-slate-500">Dividir el mercado para enfocar esfuerzos.</p>
+                        </div>
+                    </div>
+                </div>
+                 <!-- Canal -->
+                <div class="card p-5">
+                     <div class="flex items-center space-x-4">
+                        <div class="icon-bg bg-rose-100"><svg class="w-6 h-6 text-rose-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8.684 13.342C8.886 12.938 9 12.482 9 12s-.114-.938-.316-1.342m0 2.684a3 3 0 110-2.684m0 2.684l6.632 3.316m-6.632-6l6.632-3.316m0 0a3 3 0 105.367-2.684 3 3 0 00-5.367 2.684zm0 9.368a3 3 0 105.367 2.684 3 3 0 00-5.367-2.684z"></path></svg></div>
+                        <div>
+                            <h3 class="font-bold text-lg text-slate-700">Canal</h3>
+                            <p class="text-sm text-slate-500">La ruta del producto hasta el consumidor.</p>
+                        </div>
+                    </div>
+                </div>
+                 <!-- Logística -->
+                <div class="card p-5">
+                     <div class="flex items-center space-x-4">
+                        <div class="icon-bg bg-indigo-100"><svg class="w-6 h-6 text-indigo-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M9 17a2 2 0 11-4 0 2 2 0 014 0zM19 17a2 2 0 11-4 0 2 2 0 014 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16V6a1 1 0 00-1-1H4a1 1 0 00-1 1v10l2.05-2.05A1 1 0 015.83 13H9m-1 4h6m4-11h-8a1 1 0 00-1 1v5l-2.05 2.05A1 1 0 019.17 16H13m6-11v10l-2-2m-4-8v4l-2 2h6l-2-2V5z"></path></svg></div>
+                        <div>
+                            <h3 class="font-bold text-lg text-slate-700">Logística</h3>
+                            <p class="text-sm text-slate-500">Planificación y control del flujo físico.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Omnicanalidad -->
+                <div class="card p-5">
+                     <div class="flex items-center space-x-4">
+                        <div class="icon-bg bg-orange-100"><svg class="w-6 h-6 text-orange-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z"></path></svg></div>
+                        <div>
+                            <h3 class="font-bold text-lg text-slate-700">Omnicanalidad</h3>
+                            <p class="text-sm text-slate-500">Experiencia integrada en todos los puntos.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 3. Diseño del Sistema de Comercialización y Distribución -->
+        <section class="grid lg:grid-cols-5 gap-8 mb-12">
+            <!-- Columna Izquierda: Comercialización -->
+            <div class="lg:col-span-3">
+                <h2 class="text-3xl font-bold text-slate-800 mb-6 border-b-4 border-emerald-400 pb-2">Creando el Camino al Cliente</h2>
+                <div class="space-y-6">
+                    <div class="card p-6 line-pattern">
+                        <h3 class="font-bold text-xl text-slate-700 mb-3">Estructura de Canales</h3>
+                        <div class="flex space-x-4">
+                           <div class="flex-1 text-center p-4 bg-white rounded-lg border border-slate-200">
+                                <span class="text-3xl">🏢</span>
+                                <p class="font-semibold mt-1">Directo</p>
+                                <p class="text-xs text-slate-500">Control total de la experiencia.</p>
+                           </div>
+                           <div class="flex-1 text-center p-4 bg-white rounded-lg border border-slate-200">
+                               <span class="text-3xl">🤝</span>
+                                <p class="font-semibold mt-1">Indirecto</p>
+                                <p class="text-xs text-slate-500">Mayor alcance y capilaridad.</p>
+                           </div>
+                        </div>
+                    </div>
+                    <div class="card p-6">
+                        <h3 class="font-bold text-xl text-slate-700 mb-3">Estrategias de Cobertura</h3>
+                        <div class="flex justify-around">
+                            <div class="text-center">
+                                <div class="w-16 h-16 bg-yellow-400 rounded-full flex items-center justify-center font-bold text-white text-3xl mx-auto">∞</div>
+                                <p class="font-semibold mt-2">Intensiva</p>
+                            </div>
+                            <div class="text-center">
+                                <div class="w-16 h-16 bg-teal-500 rounded-full flex items-center justify-center font-bold text-white text-3xl mx-auto">🎯</div>
+                                <p class="font-semibold mt-2">Selectiva</p>
+                            </div>
+                            <div class="text-center">
+                                <div class="w-16 h-16 bg-purple-600 rounded-full flex items-center justify-center font-bold text-white text-3xl mx-auto">🏆</div>
+                                <p class="font-semibold mt-2">Exclusiva</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Columna Derecha: Distribución -->
+            <div class="lg:col-span-2">
+                 <h2 class="text-3xl font-bold text-slate-800 mb-6 border-b-4 border-sky-400 pb-2">La Maquinaria Logística</h2>
+                 <div class="card p-6 h-full">
+                    <h3 class="font-bold text-xl text-slate-700 mb-4">Flujo de Distribución</h3>
+                    <ul class="space-y-4">
+                        <li class="flex items-center"><span class="icon-bg bg-slate-100 mr-4 text-xl">🏭</span><span class="font-semibold">Origen</span></li>
+                        <li class="flex items-center"><svg class="w-6 h-6 text-slate-400 mx-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 17l-4 4m0 0l-4-4m4 4V3"></path></svg></li>
+                        <li class="flex items-center"><span class="icon-bg bg-slate-100 mr-4 text-xl">📦</span><span class="font-semibold">Centro de Distribución (CD)</span></li>
+                        <li class="flex items-center"><svg class="w-6 h-6 text-slate-400 mx-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 17l-4 4m0 0l-4-4m4 4V3"></path></svg></li>
+                        <li class="flex items-center"><span class="icon-bg bg-slate-100 mr-4 text-xl">🚚</span><span class="font-semibold">Transporte y Última Milla</span></li>
+                         <li class="flex items-center"><svg class="w-6 h-6 text-slate-400 mx-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 17l-4 4m0 0l-4-4m4 4V3"></path></svg></li>
+                        <li class="flex items-center"><span class="icon-bg bg-slate-100 mr-4 text-xl">🏠</span><span class="font-semibold">Cliente Final</span></li>
+                    </ul>
+                 </div>
+            </div>
+        </section>
+
+        <!-- 4. Indicadores (KPIs) -->
+        <section class="mb-12">
+            <h2 class="text-3xl font-bold text-slate-800 mb-6 border-b-4 border-rose-400 pb-2">¿Cómo Medimos el Éxito? (KPIs)</h2>
+            <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
+                <div class="card p-4 kpi-card border-emerald-500">
+                    <p class="text-sm font-semibold text-emerald-800">Servicio al Cliente</p>
+                    <p class="text-2xl font-bold text-slate-700">OTIF</p>
+                    <p class="text-xs text-slate-500">On Time, In Full</p>
+                </div>
+                <div class="card p-4 kpi-card border-sky-500">
+                    <p class="text-sm font-semibold text-sky-800">Inventario</p>
+                    <p class="text-2xl font-bold text-slate-700">Rotación</p>
+                    <p class="text-xs text-slate-500">Eficiencia del stock</p>
+                </div>
+                <div class="card p-4 kpi-card border-amber-500">
+                    <p class="text-sm font-semibold text-amber-800">Costos</p>
+                    <p class="text-2xl font-bold text-slate-700">CL/V %</p>
+                    <p class="text-xs text-slate-500">Costo Logístico / Ventas</p>
+                </div>
+                <div class="card p-4 kpi-card border-indigo-500">
+                    <p class="text-sm font-semibold text-indigo-800">Mercado</p>
+                    <p class="text-2xl font-bold text-slate-700">Cobertura</p>
+                    <p class="text-xs text-slate-500">Puntos de venta activos</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- 5. Riesgos, Cumplimiento y Caso Aplicado -->
+        <section class="grid lg:grid-cols-2 gap-8">
+            <!-- Riesgos y Cumplimiento -->
+            <div class="line-pattern p-6 rounded-2xl">
+                <h2 class="text-2xl font-bold text-slate-800 mb-4">Reglas del Juego en Colombia</h2>
+                 <div class="space-y-3">
+                    <div class="flex items-center p-3 bg-white rounded-lg shadow-sm">
+                        <svg class="w-6 h-6 text-red-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                        <p class="text-slate-600"><span class="font-semibold">Ley 1480/2011:</span> Protección al Consumidor.</p>
+                    </div>
+                    <div class="flex items-center p-3 bg-white rounded-lg shadow-sm">
+                         <svg class="w-6 h-6 text-blue-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"></path></svg>
+                        <p class="text-slate-600"><span class="font-semibold">Ley 1581/2012:</span> Protección de Datos Personales.</p>
+                    </div>
+                     <div class="flex items-center p-3 bg-white rounded-lg shadow-sm">
+                        <svg class="w-6 h-6 text-green-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2h1a2 2 0 002-2v-1a2 2 0 012-2h1.945M7.7 9.3l.16-.295A1 1 0 018.845 8H15.155a1 1 0 01.885.995l.16.295M12 15.75V19.5m-3.75-3.75H4.5m15 0h-3.75M12 21.75a1.5 1.5 0 01-1.5-1.5v-1.5a1.5 1.5 0 013 0v1.5a1.5 1.5 0 01-1.5 1.5z"></path></svg>
+                        <p class="text-slate-600"><span class="font-semibold">Incoterms 2020:</span> Reglas de Comercio Exterior.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Caso Aplicado -->
+            <div class="bg-gradient-to-br from-slate-700 to-slate-800 p-6 rounded-2xl text-white">
+                <h2 class="text-2xl font-bold mb-4">Caso Práctico: Café "Oriente Conecta"</h2>
+                <p class="text-sm text-slate-300 mb-4">Lanzamiento de bajo presupuesto en el Eje Cafetero.</p>
+                <div class="space-y-3">
+                    <p><span class="font-semibold bg-green-500 text-green-900 px-2 py-1 rounded">Canal Directo:</span> WhatsApp Business y entregas "Click & Meet".</p>
+                    <p><span class="font-semibold bg-sky-400 text-sky-900 px-2 py-1 rounded">Canal Selectivo:</span> Tiendas de barrio cercanas a universidades.</p>
+                    <p><span class="font-semibold bg-amber-400 text-amber-900 px-2 py-1 rounded">Distribución:</span> Micro-CD y ruteo en motocarro.</p>
+                </div>
+                <div class="mt-4 pt-4 border-t border-slate-600">
+                    <p class="font-bold">KPIs Meta (1er Mes): <span class="text-green-300">OTIF ≥ 95%</span>, <span class="text-amber-300">CL/V ≤ 12%</span>.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- 6. Cierre -->
+        <footer class="text-center mt-12 pt-6 border-t border-slate-200">
+            <p class="text-xl font-bold text-slate-800">"Comercializar es <span class="text-sky-600">prometer</span>; distribuir es <span class="text-emerald-600">cumplir</span>."</p>
+            <p class="text-sm text-slate-500 mt-2">Una integración exitosa es clave para la sostenibilidad y el crecimiento.</p>
+        </footer>
+
+    </div>
+
+</body>
+</html>
